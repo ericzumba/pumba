@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "São Caetano do Sul",
+               "short_name" : "São Caetano do Sul",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "São Caetano do Sul",
+               "short_name" : "São Caetano do Sul",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "São Paulo",
+               "short_name" : "SP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brasil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "São Caetano do Sul, São Caetano do Sul - SP, Brasil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -23.5992153,
+                  "lng" : -46.5448234
+               },
+               "southwest" : {
+                  "lat" : -23.6505537,
+                  "lng" : -46.5849924
+               }
+            },
+            "location" : {
+               "lat" : -23.6233625,
+               "lng" : -46.5552433
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.5992153,
+                  "lng" : -46.5448234
+               },
+               "southwest" : {
+                  "lat" : -23.6505537,
+                  "lng" : -46.5849924
+               }
+            }
+         },
+         "place_id" : "ChIJO-h-YVhczpQRskQCgAVmO8U",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

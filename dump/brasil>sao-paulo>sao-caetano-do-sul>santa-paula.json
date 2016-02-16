@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Santa Paula",
+               "short_name" : "Santa Paula",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "São Caetano do Sul",
+               "short_name" : "São Caetano do Sul",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "São Caetano do Sul",
+               "short_name" : "São Caetano do Sul",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "São Paulo",
+               "short_name" : "SP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brasil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Santa Paula, São Caetano do Sul - SP, Brasil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -23.610233,
+                  "lng" : -46.551159
+               },
+               "southwest" : {
+                  "lat" : -23.6220386,
+                  "lng" : -46.5695221
+               }
+            },
+            "location" : {
+               "lat" : -23.6176297,
+               "lng" : -46.5668298
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.610233,
+                  "lng" : -46.551159
+               },
+               "southwest" : {
+                  "lat" : -23.6220386,
+                  "lng" : -46.5695221
+               }
+            }
+         },
+         "place_id" : "ChIJk4S0cudczpQR70zEsR7GQAY",
+         "types" : [ "sublocality_level_1", "sublocality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

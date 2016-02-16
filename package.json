@@ -1,0 +1,17 @@
+{
+  "name": "pumba",
+  "version": "1.0.0",
+  "dependencies": {
+    "solr-client": "~0.6.0"
+  },
+  "description": "writes new locations to solr",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "solr"
+  ],
+  "author": "Eric Torti",
+  "license": "ISC"
+}
