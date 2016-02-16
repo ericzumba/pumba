@@ -8,4 +8,4 @@ var files = require('./lib/files')({
   path: "dump"
 })
 
-files.each(console.log)
+files.each(files.read)
