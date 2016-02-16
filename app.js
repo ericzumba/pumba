@@ -8,4 +8,9 @@ var files = require('./lib/files')({
   path: "dump"
 })
 
-files.each(files.read)
+var gts = require('./lib/google-to-solr')()
+
+files.each(files.read(function(file) {
+  var doc = gts.convert(file)
+  console.log(doc)
+}))
