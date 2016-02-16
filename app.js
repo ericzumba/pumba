@@ -3,4 +3,8 @@ var solr = require('./lib/solr')({
   port: 8983,
   core: "loqs"
 })
+
+var files = require('./lib/files')({
+  dir: "dump"
+})
 solr.search('q=*:*', console.log)
