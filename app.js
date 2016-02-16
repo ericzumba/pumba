@@ -5,6 +5,7 @@ var solr = require('./lib/solr')({
 })
 
 var files = require('./lib/files')({
-  dir: "dump"
+  path: "dump"
 })
-solr.search('q=*:*', console.log)
+
+files.each(console.log)
