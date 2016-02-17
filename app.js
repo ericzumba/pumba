@@ -1,4 +1,4 @@
-require('./lib/env')('prod', function(env){
+require('./lib/env')(process.argv[2], function(env){
   var solr = require('./lib/solr')(env.solr)
   var files = require('./lib/files')(env.files)
   var gts = require('./lib/google-to-solr')()

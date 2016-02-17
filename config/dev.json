@@ -5,6 +5,6 @@
     "core": "loqs"
   },
   "files": {
-    "path": "dump"
+    "path": "hackweek-xlocation/db/cities"
   }
 }

@@ -1,0 +1,3 @@
+[submodule "hackweek-xlocation"]
+	path = hackweek-xlocation
+	url = ./hackweek-xlocation
