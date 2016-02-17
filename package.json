@@ -2,7 +2,8 @@
   "name": "pumba",
   "version": "1.0.0",
   "dependencies": {
-    "solr-client": "~0.6.0"
+    "solr-client": "~0.6.0",
+    "slug": "~0.9.1"
   },
   "description": "writes new locations to solr",
   "main": "app.js",

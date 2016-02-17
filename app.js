@@ -8,10 +8,13 @@ var files = require('./lib/files')({
   path: "dump"
 })
 
+var slug = require('./lib/slug')()
+
 var gts = require('./lib/google-to-solr')()
 
-solr.deleteAll()
-
 files.each(files.read(function(file) {
-  solr.add(gts.convert(file), console.log)
+  var doc = gts.convert(file)
+  doc.id = slug.id(doc.comps)
+  delete doc.comps
+  solr.add(doc, console.log)
 }))
