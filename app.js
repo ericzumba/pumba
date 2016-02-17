@@ -10,7 +10,8 @@ var files = require('./lib/files')({
 
 var gts = require('./lib/google-to-solr')()
 
+solr.deleteAll()
+
 files.each(files.read(function(file) {
-  var doc = gts.convert(file)
-  console.log(doc)
+  solr.add(gts.convert(file), console.log)
 }))
