@@ -3,4 +3,4 @@ writes cool docs to solr
 
 npm install
 
-node app.js
+node app.js [dev|prod]

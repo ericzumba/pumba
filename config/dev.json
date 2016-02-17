@@ -1,0 +1,10 @@
+{
+  "solr": {
+    "host": "localhost",
+    "port": 8983,
+    "core": "loqs"
+  },
+  "files": {
+    "path": "dump"
+  }
+}
