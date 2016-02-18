@@ -8,5 +8,11 @@
     "files": {
       "path": "hackweek-xlocation/db/cities"
     }
+  },
+  "solr-to-solr": {
+    "core": "inmuebles",
+    "files": {
+      "path": "solr-pages"
+    }
   }
 }

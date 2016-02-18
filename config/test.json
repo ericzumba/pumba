@@ -1,7 +1,12 @@
 {
   "google-to-solr": {
     "files": {
-      "path": "test/fixtures"
+      "path": "test/google-fixtures"
+    }
+  },
+  "solr-to-solr": {
+    "files": {
+      "path": "test/solr-fixtures"
     }
   }
 }
