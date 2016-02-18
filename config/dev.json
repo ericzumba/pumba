@@ -3,13 +3,13 @@
     "host": "localhost",
     "port": 8983
   },
-  "google-to-solr": {
+  "google-file-to-solr": {
     "core": "loqs",
     "files": {
       "path": "hackweek-xlocation/db/cities"
     }
   },
-  "solr-to-solr": {
+  "solr-file-to-solr": {
     "core": "inmuebles",
     "files": {
       "path": "solr-pages"
