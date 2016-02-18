@@ -6,7 +6,7 @@
   "google-file-to-solr": {
     "core": "loqs",
     "files": {
-      "path": "hackweek-xlocation/db/cities"
+      "path": "hackweek-xlocation/db/paranoa"
     }
   },
   "solr-file-to-solr": {
