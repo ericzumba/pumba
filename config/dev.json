@@ -1,10 +1,12 @@
 {
   "solr": {
     "host": "localhost",
-    "port": 8983,
-    "core": "loqs"
+    "port": 8983
   },
-  "files": {
-    "path": "hackweek-xlocation/db/cities"
+  "google-to-solr": {
+    "core": "loqs",
+    "files": {
+      "path": "hackweek-xlocation/db/cities"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
-  "files": {
-    "path": "test/fixtures"
+  "google-to-solr": {
+    "files": {
+      "path": "test/fixtures"
+    }
   }
 }
