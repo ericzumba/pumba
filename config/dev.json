@@ -6,7 +6,10 @@
   "google-file-to-solr": {
     "core": "loqs",
     "files": {
-      "path": "hackweek-xlocation/db/neighborhoods"
+      "path": "hackweek-xlocation/db/sao-paulo-streets",
+      "map" : {
+        "path": "hackweek-xlocation/db/sao-paulo-streets.map"
+      }
     }
   },
   "solr-file-to-solr": {
